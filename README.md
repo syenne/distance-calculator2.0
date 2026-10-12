@@ -31,7 +31,6 @@ def calculate_distance(x1, y1, x2, y2, target_unit="meters"):
     # Default fallback to meters if unit is unrecognized
     return base_distance, "meters"
 
-
 # --- Example Usage ---
 # Coordinates: Point A (0, 0) and Point B (5, 12)
 x1, y1 = 0, 0
